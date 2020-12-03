@@ -12,9 +12,8 @@ public class RobotHotelManagerSecond {
             System.out.println("Привет!\nЯ тебя так долго ждал");
         }else if(Objects.equals(guestName, "Анастасия")){
             System.out.println("Я тебя так долго ждал");
-        } else if(!Objects.equals(guestName, "Анастасия") && !Objects.equals(guestName, "Вася")){
+        } else
             System.out.println("Добрый день, а вы кто?");
-        }
         sc.close();
     }
 }
